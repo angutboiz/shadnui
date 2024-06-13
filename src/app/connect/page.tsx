@@ -30,36 +30,36 @@ export default function page() {
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 242423 333333"
-                                shape-rendering="geometricPrecision"
-                                text-rendering="geometricPrecision"
-                                image-rendering="optimizeQuality"
-                                fill-rule="evenodd"
-                                clip-rule="evenodd">
+                                shapeRendering="geometricPrecision"
+                                textRendering="geometricPrecision"
+                                imageRendering="optimizeQuality"
+                                fillRule="evenodd"
+                                clipRule="evenodd">
                                 <defs>
                                     <mask id="c">
                                         <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="200294" y1="91174.8" x2="200294" y2="176113">
-                                            <stop offset="0" stop-opacity=".02" stop-color="#fff" />
-                                            <stop offset="1" stop-opacity=".2" stop-color="#fff" />
+                                            <stop offset="0" stopOpacity=".02" stopColor="#fff" />
+                                            <stop offset="1" stopOpacity=".2" stopColor="#fff" />
                                         </linearGradient>
                                         <path fill="url(#a)" d="M158015 84111h84558v99065h-84558z" />
                                     </mask>
                                     <mask id="e">
                                         <radialGradient id="b" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="0" fx="0" fy="0">
-                                            <stop offset="0" stop-opacity="0" stop-color="#fff" />
-                                            <stop offset="1" stop-opacity=".098" stop-color="#fff" />
+                                            <stop offset="0" stopOpacity="0" stopColor="#fff" />
+                                            <stop offset="1" stopOpacity=".098" stopColor="#fff" />
                                         </radialGradient>
                                         <path fill="url(#b)" d="M-150-150h242723v333633H-150z" />
                                     </mask>
                                     <radialGradient id="f" gradientUnits="userSpaceOnUse" cx="9696.85" cy="10000.4" r="166667" fx="9696.85" fy="10000.4">
-                                        <stop offset="0" stop-color="#fff" />
-                                        <stop offset="1" stop-color="#fff" />
+                                        <stop offset="0" stopColor="#fff" />
+                                        <stop offset="1" stopColor="#fff" />
                                     </radialGradient>
                                     <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="200294" y1="95125.2" x2="200294" y2="172162">
-                                        <stop offset="0" stop-color="#263138" />
-                                        <stop offset="1" stop-color="#263138" />
+                                        <stop offset="0" stopColor="#263138" />
+                                        <stop offset="1" stopColor="#263138" />
                                     </linearGradient>
                                 </defs>
-                                <g fill-rule="nonzero">
+                                <g fillRule="nonzero">
                                     <path
                                         d="M151513 0H22729C10227 0 1 10227 1 22728v287877c0 12505 10227 22728 22728 22728h196966c12505 0 22728-10224 22728-22728V90911l-53028-37880L151513 0z"
                                         fill="#0f9c57"
@@ -70,13 +70,13 @@ export default function page() {
                                     />
                                     <path mask="url(#c)" fill="url(#d)" d="M158165 84261l84258 84245V90911z" />
                                     <path d="M151513 0v68184c0 12557 10173 22727 22727 22727h68183L151513 0z" fill="#87cdac" />
-                                    <path d="M22728 0C10226 0 0 10227 0 22729v1893C0 12123 10227 1894 22728 1894h128784V1H22728z" fill="#fff" fill-opacity=".2" />
+                                    <path d="M22728 0C10226 0 0 10227 0 22729v1893C0 12123 10227 1894 22728 1894h128784V1H22728z" fill="#fff" fillOpacity=".2" />
                                     <path
                                         d="M219694 331443H22728C10226 331443 0 321213 0 308715v1890c0 12505 10227 22728 22728 22728h196966c12505 0 22728-10224 22728-22728v-1890c0 12499-10224 22728-22728 22728z"
                                         fill="#263138"
-                                        fill-opacity=".2"
+                                        fillOpacity=".2"
                                     />
-                                    <path d="M174239 90911c-12554 0-22727-10170-22727-22727v1893c0 12557 10173 22727 22727 22727h68183v-1893h-68183z" fill="#263138" fill-opacity=".102" />
+                                    <path d="M174239 90911c-12554 0-22727-10170-22727-22727v1893c0 12557 10173 22727 22727 22727h68183v-1893h-68183z" fill="#263138" fillOpacity=".102" />
                                     <path
                                         d="M151513 0H22729C10227 0 1 10227 1 22729v287876c0 12505 10227 22728 22728 22728h196966c12505 0 22728-10224 22728-22728V90911L151513 0z"
                                         mask="url(#e)"
@@ -91,7 +91,9 @@ export default function page() {
                                 <p>Send your data staight to Google Sheet. Automatically syncs as result come in.</p>
                             </div>
                             <div className="">
-                                <Button>Connect</Button>
+                                <Button>
+                                    <p>Connect</p>
+                                </Button>
                             </div>
                         </div>
                     </div>
@@ -108,8 +110,8 @@ export default function page() {
                                 <path d="M22.213,36H12V13.333h10.213c1.724,0,3.121,1.397,3.121,3.121v16.425	C25.333,34.603,23.936,36,22.213,36z" opacity=".07"></path>
                                 <path d="M22.106,35H12V13.667h10.106c1.414,0,2.56,1.146,2.56,2.56V32.44C24.667,33.854,23.52,35,22.106,35z" opacity=".09"></path>
                                 <linearGradient id="flEJnwg7q~uKUdkX0KCyBa_UECmBSgBOvPT_gr1" x1="4.725" x2="23.055" y1="14.725" y2="33.055" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="#18884f"></stop>
-                                    <stop offset="1" stop-color="#0b6731"></stop>
+                                    <stop offset="0" stopColor="#18884f"></stop>
+                                    <stop offset="1" stopColor="#0b6731"></stop>
                                 </linearGradient>
                                 <path
                                     fill="url(#flEJnwg7q~uKUdkX0KCyBa_UECmBSgBOvPT_gr1)"
@@ -123,7 +125,9 @@ export default function page() {
                                 <p>Send your typeform responses to Excel Online. Turn feedback into graphs, support quries into workflows, and much more.</p>
                             </div>
                             <div className="">
-                                <Button>Connect</Button>
+                                <Button>
+                                    <p>Connect</p>
+                                </Button>
                             </div>
                         </div>
                     </div>
